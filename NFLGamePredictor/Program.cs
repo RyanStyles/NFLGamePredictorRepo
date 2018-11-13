@@ -21,6 +21,7 @@ namespace NFLGamePredictorCode
         }
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello world");
             LoadJson();
             Console.ReadLine();
         }
