@@ -1,0 +1,10 @@
+C:\Users\Ryan Styles\source\repos\Object Oriented\NFLGamePredictor\NFLGamePredictor\obj\Debug\NFLGamePredictor.csprojAssemblyReference.cache
+C:\Users\Ryan Styles\source\repos\Object Oriented\NFLGamePredictor\NFLGamePredictor\obj\Debug\NFLGamePredictor.csproj.CoreCompileInputs.cache
+C:\Users\Ryan Styles\source\repos\Object Oriented\NFLGamePredictor\NFLGamePredictor\bin\Debug\NFLGamePredictor.exe.config
+C:\Users\Ryan Styles\source\repos\Object Oriented\NFLGamePredictor\NFLGamePredictor\bin\Debug\NFLGamePredictor.exe
+C:\Users\Ryan Styles\source\repos\Object Oriented\NFLGamePredictor\NFLGamePredictor\bin\Debug\NFLGamePredictor.pdb
+C:\Users\Ryan Styles\source\repos\Object Oriented\NFLGamePredictor\NFLGamePredictor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ryan Styles\source\repos\Object Oriented\NFLGamePredictor\NFLGamePredictor\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ryan Styles\source\repos\Object Oriented\NFLGamePredictor\NFLGamePredictor\obj\Debug\NFLGamePredictor.csproj.CopyComplete
+C:\Users\Ryan Styles\source\repos\Object Oriented\NFLGamePredictor\NFLGamePredictor\obj\Debug\NFLGamePredictor.exe
+C:\Users\Ryan Styles\source\repos\Object Oriented\NFLGamePredictor\NFLGamePredictor\obj\Debug\NFLGamePredictor.pdb
