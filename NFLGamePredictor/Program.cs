@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NFLGamePredictor;
 using Newtonsoft.Json;
 
 namespace NFLGamePredictorCode
@@ -12,17 +13,29 @@ namespace NFLGamePredictorCode
     {
         static void LoadJson()
         {
-            using (StreamReader r = new StreamReader("C:\\Users\\Ryan Styles\\Documents\\PythonClass\\scraping\\Logs\\log1541999589.json"))
+            string json;
+            using (StreamReader r = new StreamReader(@"C:\Users\Ryan Styles\Documents\PythonClass\scraping\Logs\log1541999589.json"))
             {
-                string json = r.ReadToEnd();
-                List<Item> items = JsonConvert.DeserializeObject<List<Item>>(json);
-                //Console.WriteLine(items[0]);
+                json = r.ReadToEnd();
+            }
+
+            JsonTextReader reader = new JsonTextReader(new StringReader(json));
+            while (reader.Read())
+            {
+                if (reader.Value != null)
+                {
+                    team TeamOne = new team();
+                    TeamOne.teamName = (reader.TokenType).ToString();
+                    Console.WriteLine(TeamOne.teamName);
+                    TeamOne.teamName = (reader.Value).ToString();
+                    Console.WriteLine(TeamOne.teamName);
+                }
             }
         }
-        static void Main(string[] args)
+            static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
             LoadJson();
+
             Console.ReadLine();
         }
     }

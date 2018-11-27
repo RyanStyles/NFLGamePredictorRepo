@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="team.cs" />
+    <Compile Include="week.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
