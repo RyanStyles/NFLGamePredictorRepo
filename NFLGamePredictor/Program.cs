@@ -14,7 +14,7 @@ namespace NFLGamePredictorCode
     {
         static NFL LoadData()
         {
-            string path = @"C:\Users\Ryan Styles\Documents\PythonClass\scraping\Logs\log.txt";
+            string path = "log.txt";
             string[] lines = File.ReadAllLines(path);
 
             var currentWeek = Convert.ToInt32(lines[0]);
@@ -105,20 +105,9 @@ namespace NFLGamePredictorCode
         }
         static void Main(string[] args)
         {
-            string compTeam1 = "";
-            string compTeam2 = "";
-            try
-            {
-                compTeam1 = args[0];
+            string
+                compTeam1 = args[0],
                 compTeam2 = args[1];
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Please enter enter two NFL team names on the command line separated by a space.");
-                Console.WriteLine("Example: NFLGamePredictor.exe Bears Packers");
-                Console.ReadLine();
-                Environment.Exit(1);
-            }
 
             NFL league = LoadData();
 
