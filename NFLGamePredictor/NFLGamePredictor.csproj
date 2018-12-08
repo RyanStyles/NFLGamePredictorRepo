@@ -49,6 +49,7 @@
     <Compile Include="NFL.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SportsLeague.cs" />
     <Compile Include="Team.cs" />
     <Compile Include="Week.cs" />
   </ItemGroup>

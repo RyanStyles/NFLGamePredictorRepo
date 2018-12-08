@@ -103,11 +103,28 @@ namespace NFLGamePredictorCode
                 Console.WriteLine("TIE! Both " + compTeam1 + " and " + compTeam2 + " will score " + avgScore1Adjusted);
             }
         }
+        
+        static void incorrectInput()
+        {
+            Console.WriteLine("Incorrect input. Please enter two NFL team names on the command line separated by a space.");
+            Console.WriteLine("Example: NFLGamePredictor.exe Bears Packers");
+            Console.ReadLine();
+            Environment.Exit(1);
+        }
         static void Main(string[] args)
         {
             string
-                compTeam1 = args[0],
+                compTeam1 = "", compTeam2 = "";
+
+            try
+            {
+                compTeam1 = args[0];
                 compTeam2 = args[1];
+            }
+            catch (Exception e)
+            {
+                incorrectInput();
+            }
 
             NFL league = LoadData();
 
@@ -115,14 +132,12 @@ namespace NFLGamePredictorCode
             {
                 Console.WriteLine("Predicting winner for " + compTeam1 + " vs " + compTeam2 + "...");
                 Predictor(compTeam1, compTeam2, league);
+                Console.ReadLine();
             }
             else
             {
-                Console.WriteLine("Please enter enter two NFL team names on the command line separated by a space.");
-                Console.WriteLine("Example: NFLGamePredictor.exe Bears Packers");
+                incorrectInput();
             }
-
-            Console.ReadLine();
         }
     }
 }
