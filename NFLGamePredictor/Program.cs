@@ -4,11 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Newtonsoft.Json;
-using System.Text.RegularExpressions;
-using NFLGamePredictor;
 
-namespace NFLGamePredictorCode
+namespace NFLGamePredictor
 {
     class Program
     {
@@ -103,7 +100,7 @@ namespace NFLGamePredictorCode
                 Console.WriteLine("TIE! Both " + compTeam1 + " and " + compTeam2 + " will score " + avgScore1Adjusted);
             }
         }
-        
+
         static void incorrectInput()
         {
             Console.WriteLine("Incorrect input. Please enter two NFL team names on the command line separated by a space.");
@@ -121,7 +118,7 @@ namespace NFLGamePredictorCode
                 compTeam1 = args[0];
                 compTeam2 = args[1];
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 incorrectInput();
             }

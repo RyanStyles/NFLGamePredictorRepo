@@ -8,7 +8,6 @@ C:\Users\Ryan Styles\source\repos\Object Oriented\NFLGamePredictor\NFLGamePredic
 C:\Users\Ryan Styles\source\repos\Object Oriented\NFLGamePredictor\NFLGamePredictor\obj\Debug\NFLGamePredictor.csproj.CopyComplete
 C:\Users\Ryan Styles\source\repos\Object Oriented\NFLGamePredictor\NFLGamePredictor\obj\Debug\NFLGamePredictor.exe
 C:\Users\Ryan Styles\source\repos\Object Oriented\NFLGamePredictor\NFLGamePredictor\obj\Debug\NFLGamePredictor.pdb
-C:\Users\Ryan Styles\source\repos\Object Oriented\NFLrepo\NFLGamePredictor\bin\Debug\log.txt
 C:\Users\Ryan Styles\source\repos\Object Oriented\NFLrepo\NFLGamePredictor\bin\Debug\NFLGamePredictor.exe.config
 C:\Users\Ryan Styles\source\repos\Object Oriented\NFLrepo\NFLGamePredictor\bin\Debug\NFLGamePredictor.exe
 C:\Users\Ryan Styles\source\repos\Object Oriented\NFLrepo\NFLGamePredictor\bin\Debug\NFLGamePredictor.pdb
